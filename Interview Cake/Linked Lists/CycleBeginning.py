@@ -13,7 +13,7 @@ def cycle_beginning(head):
         if fast is slow: # if fast intersects with slow
             break
 
-    if fast is None and fast.next is None: # if there is no cycle
+    if fast is None or fast.next is None: # if there is no cycle
         return None
 
     slow = head

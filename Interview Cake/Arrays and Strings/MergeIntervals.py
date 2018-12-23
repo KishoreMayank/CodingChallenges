@@ -15,5 +15,5 @@ def merge_ranges(meetings):
             merged.append(meeting)                   # Append if it is
         else:
             merged[-1] = (merged[-1][0], max(meeting[1], merged[-1][1]))
-
     return merged
+    

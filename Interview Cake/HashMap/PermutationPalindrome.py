@@ -1,0 +1,3 @@
+'''
+Permutation Palindrome:
+    

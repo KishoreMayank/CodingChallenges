@@ -16,10 +16,9 @@ def highest_prod_3(ints):
     for i in range(2, len(ints)):
         curr = ints[i]
 
-        # update the highest prods
-        high_3 = max(high_3, curr * high_2, curr * low_2)
-        high_2 = max(high_2, curr * highest, curr * lowest)
-        low_2 = min(low_2, curr * highest, curr * lowest)
+        high_3 = max(high_3, curr * high_2, curr * low_2) # update the highest prods
+        high_2 = max(high_2, curr * highest, curr * lowest) # update the highest prod of 2
+        low_2 = min(low_2, curr * highest, curr * lowest) # update the lowest prod of 2 (for negative numbers)
 
         highest = max(highest, curr)
         lowest = min(lowest, curr)

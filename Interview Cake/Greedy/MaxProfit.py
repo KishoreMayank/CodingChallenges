@@ -6,7 +6,7 @@ Max Profit:
     Output: 6
 '''
 def get_max_profit(stock_prices):
-    
+
     if len(stock_prices) < 2:
         raise ValueError('max profit need at least 2 prices')
         
@@ -14,8 +14,8 @@ def get_max_profit(stock_prices):
     max_profit = stock_prices[1] - stock_prices[0]
     
     for curr_price in stock_prices[1:]:
-        pot_profit = curr_price - curr_min
-        max_profit = max(max_profit, pot_profit)
-        curr_min = min(curr_min, curr_price)
+        pot_profit = curr_price - curr_min # get the potential profit
+        max_profit = max(max_profit, pot_profit) # get the max profit
+        curr_min = min(curr_min, curr_price) # update the current min
 
     return max_profit

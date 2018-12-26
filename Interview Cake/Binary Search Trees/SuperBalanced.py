@@ -16,12 +16,11 @@ def super_balanced(root):
         node, depth = nodes.pop()
         if (not node.left) and (not node.right):
             depths.append(depth)
-            if (len(depths) > 2) or (len(depths) == 2 and 
-            abs(depths[1] - depths[0]) > 1): 
+            if (len(depths) > 2) or (len(depths) == 2 and abs(depths[1] - depths[0]) > 1): 
                 return False # if more than two elements or difference is greater than 1
         else:
             if node.left:
-                nodes.append(node.left, depth + 1)
+                nodes.append((node.left, depth + 1))
             if node.right:
-                nodes.append(node.right, depth + 1)
+                nodes.append((node.right, depth + 1))
     return True

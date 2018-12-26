@@ -17,7 +17,7 @@ def color_graph(graph, colors):
         illegal = [] # create an illegal list of colors based on the neighbors 
         for n in node.neighbors:
             if n == node:
-                raise Exception()
+                raise Exception("no self loops")
             if n.color:
                 illegal.append(n.color)
                 

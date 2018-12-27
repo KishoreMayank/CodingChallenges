@@ -22,13 +22,13 @@ def bfs_get_path(graph, start, end):
                 visited.add(neighbhor) # add the neighbhors to the visited set
                 parents[neighbhor] = node # set the child : parent binding
     path = []
-    curr = end
+    curr = end # start at the end node
     while curr is not start: # build the path until the start value
         path.insert(0, curr)
-        if curr not in parents: # 
+        if curr not in parents: # if it gets to the node with no parent, then it is not possible
             return None
-        curr = parents[curr]
+        curr = parents[curr] # go to the parent of the current
     
-    path.insert(0, start)
+    path.insert(0, start) # finally, insert the start node in
 
     return path

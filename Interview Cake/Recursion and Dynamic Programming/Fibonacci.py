@@ -1,6 +1,6 @@
 '''
 Fibonacci:
-    Write a function fib() that takes an integer nn and returns the nnth Fibonacci number
+    Write a function fib() that takes an integer n and returns the nth Fibonacci number
 '''
 
 # DYNAMIC PROGRAMMING (BOTTOM - UP)
@@ -26,8 +26,7 @@ def fib_td(n):
 
     if n in memo:
         return memo[n]
-    else:
-        memo[n] = fib(n - 1) + fib(n - 2) # store the value of the fib of the current
+    memo[n] = fib(n - 1) + fib(n - 2) # store the value of the fib of the current
         
     return memo[n]
     

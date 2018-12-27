@@ -13,8 +13,8 @@ def fib(n):
 
     prev_prev = 0
     prev = 1
-    for _ in range(n - 1):
-        curr = prev + prev_prev
+    for _ in range(n - 1): # already have the first two so end at 2 before (n-1 iterations)
+        curr = prev + prev_prev # use the previous values to caluclate the current
         prev_prev = prev
         prev = curr
     return curr
@@ -24,11 +24,10 @@ def fib(n):
 memo = {0:0, 1:1}
 def fib_td(n):
 
-    # Compute the nth Fibonacci number
     if n in memo:
         return memo[n]
     else:
-        memo[n] = fib(n - 1) + fib(n - 2)
+        memo[n] = fib(n - 1) + fib(n - 2) # store the value of the fib of the current
         
     return memo[n]
     

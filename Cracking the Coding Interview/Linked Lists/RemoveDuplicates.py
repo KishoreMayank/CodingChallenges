@@ -10,10 +10,10 @@ def remove_dups(llist):
     curr = llist.head
     seen = set([curr.value]) # keep a set of all of the values that have been seen
     while curr.next:
-        if curr.next.value in seen: # if it is in seen, remove it
-            curr.next = curr.next.next
+        if curr.next.value in seen: # if the next is a duplicate
+            curr.next = curr.next.next # move the next pointer past the duplicate value
         else:
-            seen.add(curr.next.value)
-            curr = curr.next
+            seen.add(curr.next.value) # otherwise add it to the set
+            curr = curr.next # and move past all of the subsequent duplicates
 
     return llist

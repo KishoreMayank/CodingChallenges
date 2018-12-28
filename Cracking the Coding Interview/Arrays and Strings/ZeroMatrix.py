@@ -31,10 +31,10 @@ def zero_matrix(matrix):
         if matrix[0][col] == 0:
             nullify_row(matrix, col)
 
-    if (rowHasZero):
+    if (rowHasZero): # if there was a 0 in the first row, nullify it
         nullify_row(matrix, 0)
     
-    if (colHasZero):
+    if (colHasZero): # if there was a 0 in the first col, nullify it
         nullify_col(matrix, 0)
 
     return matrix

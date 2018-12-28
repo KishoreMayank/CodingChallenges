@@ -1,12 +1,12 @@
 '''
 One Away:
-    There are three types of edits on strings: remove, insert or replace. Determine if two strings are one away
+    There are three types of edits on strings: remove, insert or replace. Determine if two strings are one edit away
     Ex: pale, ple -> true
         plae, bae -> false
 '''
 
 def one_away(s1, s2):
-    if abs(len(s1) - len(s2) > 1):
+    if abs(len(s1) - len(s2)) > 1:
         return False
     if len(s1) - len(s2) < 0:
         first, second = s1, s2

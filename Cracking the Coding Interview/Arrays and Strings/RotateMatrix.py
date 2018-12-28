@@ -5,17 +5,18 @@ Rotate Matrix:
 
 def rotate_matrix(matrix):
     for layer in range(len(matrix) // 2): # // is integer division
-        first, last = layer, len(matrix) - layer - 1
-        for i in range(first, last):
-            offest = i - first
+        last = len(matrix) - layer - 1 # the last element in the row that needs to be rotat
+        for i in range(layer, last):
+            offest = i - layer # the element in that layer
+            
             # save top
-            top = matrix[first][i] 
+            top = matrix[layer][i] 
 
             # left -> top
-            matrix[first][i] = matrix[last - offest][first]
+            matrix[layer][i] = matrix[last - offest][layer]
 
             # bottom -> left
-            matrix[last - offest][first] = matrix[last][last - offest]
+            matrix[last - offest][layer] = matrix[last][last - offest]
 
             # right -> bottom
             matrix[last][last - offest] = matrix[i][last]

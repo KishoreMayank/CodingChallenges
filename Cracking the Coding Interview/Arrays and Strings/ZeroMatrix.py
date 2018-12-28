@@ -1,6 +1,6 @@
 '''
 Zero Matrix:
-
+    If an element in an MxN matrix is 0, then the entire row and column are 0
 '''
 
 def zero_matrix(matrix):

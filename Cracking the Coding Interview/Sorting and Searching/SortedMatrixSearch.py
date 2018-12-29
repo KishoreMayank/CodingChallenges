@@ -15,12 +15,12 @@ def binarySearch(mat, i, j_low, j_high, x):
     
         else:
             j_low = j_mid + 1 
-    print( "Element no found"); 
+    print( "Element no found") 
       
 def sortedMatrixSearch(mat, n, m, x): 
     # Single row matrix 
     if (n == 1):
-        binarySearch(mat, 0, 0, m - 1, x); 
+        binarySearch(mat, 0, 0, m - 1, x) 
         return
     
     # Do binary search in middle column. 
@@ -30,11 +30,11 @@ def sortedMatrixSearch(mat, n, m, x):
     i_high = n - 1
     j_mid = m // 2
     while ((i_low + 1) < i_high):
-        i_mid = (i_low + i_high) // 2;
+        i_mid = (i_low + i_high) // 2
     
         # element found 
         if (mat[i_mid][j_mid] == x):
-            print( "Found at (" + str(i_mid) +", " + str(j_mid) +")"); 
+            print( "Found at (" + str(i_mid) +", " + str(j_mid) +")")
             return 
     
         elif (mat[i_mid][j_mid] > x):
@@ -46,18 +46,18 @@ def sortedMatrixSearch(mat, n, m, x):
     # If element is present on  
     # the mid of the two rows 
     if (mat[i_low][j_mid] == x) :
-        print( "Found at (" + str(i_low) + ","+ str(j_mid) +")"); 
+        print( "Found at (" + str(i_low) + ","+ str(j_mid) +")") 
         
     elif (mat[i_low + 1][j_mid] == x): 
-        print( "Found at (" + str(i_low + 1) + ", " + str(j_mid) +")"); 
+        print( "Found at (" + str(i_low + 1) + ", " + str(j_mid) +")") 
     
     # Ssearch element on 1st half of 1st row 
     elif (x <= mat[i_low][j_mid - 1]): 
-        binarySearch(mat, i_low, 0, j_mid - 1, x); 
+        binarySearch(mat, i_low, 0, j_mid - 1, x)
     
     # Search element on 2nd half of 1st row 
     elif (x >= mat[i_low][j_mid + 1] and x <= mat[i_low][m - 1]):
-        binarySearch(mat, i_low, j_mid + 1, m - 1, x); 
+        binarySearch(mat, i_low, j_mid + 1, m - 1, x)
     
     # Search element on 1st half of 2nd row 
     elif (x <= mat[i_low + 1][j_mid - 1]): 
@@ -76,5 +76,5 @@ def main():
             [36, 38, 50, 61, 63], 
             [64, 66, 100, 122, 128]] 
     
-    sortedMatrixSearch(mat, n, m, x); 
+    sortedMatrixSearch(mat, n, m, x)
 main()

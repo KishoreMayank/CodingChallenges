@@ -16,8 +16,8 @@ def addTwoNumbers(l1, l2):
             s2.append(l2.val) # push in all od l2
             l2 = l2.next
         
-        tot = 0;
-        output = ListNode(0);
+        tot = 0
+        output = ListNode(0)
         while s1 or s2:
             if s1:
                 tot += s1.pop()
@@ -33,3 +33,8 @@ def addTwoNumbers(l1, l2):
             return output.next # if the carry was 0
 
         return output # otherwise return the head
+
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None

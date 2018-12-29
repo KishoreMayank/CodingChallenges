@@ -45,7 +45,7 @@ class SetOfStacks(object):
             del self.stacks[index]
         elif len(self.stacks) > index + 1:
             v = self.left_shift(index + 1, False) # if not popping from the last stack then rollover all of the elements
-            stack.push(v)                         # from the next stack over to adjust to the change
+            stack.push(v)                         # from the next stack over to adjust to the stacks
         return removed_item
 
 class Node(object):

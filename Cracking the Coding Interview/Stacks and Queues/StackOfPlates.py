@@ -26,7 +26,7 @@ class SetOfStacks(object):
             stack.push(v)
             self.stacks.append(stack)
 
-    def pop(self):
+    def pop(self): # the last plate
         last = self.get_last_stack()
         if not last:
             return None

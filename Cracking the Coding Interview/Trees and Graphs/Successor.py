@@ -5,7 +5,7 @@ Successor:
 
 def inOrderSuccessor(n):
     if n.right:
-        n = n.right # if there is a right subtree, find the value by traversing down it
+        n = n.right # if there is a right subtree, find the value by traversing down the left subtree of it
         while n.left:
             n = n.left
         return n

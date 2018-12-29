@@ -8,10 +8,10 @@ def find_duplicates(array):
   duplicates = []
   for n in array:
     bit = 1 << (n % 64)
-    if bv[n / 64] & bit:
+    if bv[n // 64] & bit:
       duplicates.append(n)
     else:
-      bv[n / 64] |= bit
+      bv[n // 64] |= bit
   return duplicates
 
 import unittest

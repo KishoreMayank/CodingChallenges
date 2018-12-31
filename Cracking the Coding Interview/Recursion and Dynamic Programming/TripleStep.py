@@ -9,7 +9,7 @@ def triple_step(n):
 
     if n in memo:
         return memo[n]
-    memo[n] = triple_step(n - 1) + triple_step(n - 2) + triple_step(n - 3) # store the value of the step of the current
+    memo[n] = triple_step(n - 1) + triple_step(n - 2) + triple_step(n - 3) # store the number of ways to get to this step
         
     return memo[n]
 

@@ -6,7 +6,6 @@ Boolean Evaluation:
        count_eval("0&0&0&1^1|0", true) -> 10
 '''
 
-
 def count_eval(expr, value, memo=None):
  if len(expr) % 2 == 0:
    return Exception("Malformed expression.")

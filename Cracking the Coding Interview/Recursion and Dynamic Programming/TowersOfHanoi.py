@@ -5,8 +5,8 @@ Towers of Hanoi:
 
 def hanoi(n, source, helper, target):
     if n > 0:
-        hanoi(n - 1, source, target, helper) # move tower of size n - 1 to helper:
-        
+        hanoi(n - 1, source, target, helper) # move tower of size n - 1 to helper
+
         if source: 
             target.append(source.pop()) # move disk from source peg to target peg
         

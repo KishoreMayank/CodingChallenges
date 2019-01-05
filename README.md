@@ -12,28 +12,20 @@ This is a repo of some of the problems that I have encountered. The code is writ
 
 ### [Linked Lists](https://github.com/KishoreMayank/CodingChallenges/tree/master/Interview%20Cake/Linked%20Lists)
 &nbsp;&nbsp;&nbsp;&nbsp;[Cycle Beginning](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Linked%20Lists/CycleBeginning.py)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[Delete Node](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Linked%20Lists/DeleteNode.py)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[Find Repeat](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Linked%20Lists/FindRepeat.py)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[Kth Last Node](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Linked%20Lists/KthLastNode.py)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[Reverse Linked List](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Linked%20Lists/ReverseLinkedList.py)
+&nbsp;|&nbsp;&nbsp;[Delete Node](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Linked%20Lists/DeleteNode.py)
+&nbsp;|&nbsp;&nbsp;[Find Repeat](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Linked%20Lists/FindRepeat.py)
+&nbsp;|&nbsp;&nbsp;[Kth Last Node](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Linked%20Lists/KthLastNode.py)
+&nbsp;|&nbsp;&nbsp;[Reverse Linked List](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Linked%20Lists/ReverseLinkedList.py)
 
 ### [Stacks and Queues](https://github.com/KishoreMayank/CodingChallenges/tree/master/Interview%20Cake/Stacks%20and%20Queues)
 &nbsp;&nbsp;&nbsp;&nbsp;[Bracket Validator](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Stacks%20and%20Queues/BracketValidator.py)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[Max Stack](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Stacks%20and%20Queues/MaxStack.py)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[Parenthesis Matching](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Stacks%20and%20Queues/ParenthesisMatching.py)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[Queue Two Stacks](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Stacks%20and%20Queues/QueueTwoStacks.py)
+&nbsp;|&nbsp;&nbsp;[Max Stack](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Stacks%20and%20Queues/MaxStack.py)
+&nbsp;|&nbsp;&nbsp;[Parenthesis Matching](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Stacks%20and%20Queues/ParenthesisMatching.py)
+&nbsp;|&nbsp;&nbsp;[Queue Two Stacks](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Stacks%20and%20Queues/QueueTwoStacks.py)
 
 ### [HashMap](https://github.com/KishoreMayank/CodingChallenges/tree/master/Interview%20Cake/HashMap)
 &nbsp;&nbsp;&nbsp;&nbsp;[Permutation Palindrome](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/HashMap/PermutationPalindrome.py)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[Two Sum](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/HashMap/TwoSum.py)
+&nbsp;|&nbsp;&nbsp;[Two Sum](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/HashMap/TwoSum.py)
 
 
 ## Cracking the Coding Interview

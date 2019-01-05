@@ -27,5 +27,15 @@ This is a repo of some of the problems that I have encountered. The code is writ
 &nbsp;&nbsp;&nbsp;&nbsp;[Permutation Palindrome](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/HashMap/PermutationPalindrome.py)
 &nbsp;|&nbsp;&nbsp;[Two Sum](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/HashMap/TwoSum.py)
 
+### [Greedy](https://github.com/KishoreMayank/CodingChallenges/tree/master/Interview%20Cake/Greedy)
+&nbsp;&nbsp;&nbsp;&nbsp;[Highest Product of 3](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Greedy/HighestProd3.py)
+&nbsp;|&nbsp;&nbsp;[In Place Shuffle](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Greedy/InPlaceShuffle.py)
+&nbsp;|&nbsp;&nbsp;[Max Profit](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Greedy/MaxProfit.py)
+&nbsp;|&nbsp;&nbsp;[Product Array](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Greedy/ProductArray.py)
+
+### [Sorting and Searching](https://github.com/KishoreMayank/CodingChallenges/tree/master/Interview%20Cake/Sorting%20and%20Searching)
+&nbsp;&nbsp;&nbsp;&nbsp;[Counting Sort](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Sorting%20and%20Searching/CountingSort.py)
+&nbsp;|&nbsp;&nbsp;[Rotation Point](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Sorting%20and%20Searching/RotationPoint.py)
+
 
 ## Cracking the Coding Interview

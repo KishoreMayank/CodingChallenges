@@ -88,7 +88,8 @@ This is a repo of some of the problems that I have encountered. The code is writ
 &nbsp;|&nbsp;&nbsp;[Group Anagrams](https://github.com/KishoreMayank/CodingChallenges/blob/master/Cracking%20the%20Coding%20Interview/Sorting%20and%20Searching/GroupAnagrams.py)
 &nbsp;|&nbsp;&nbsp;[Missing Int](https://github.com/KishoreMayank/CodingChallenges/blob/master/Cracking%20the%20Coding%20Interview/Sorting%20and%20Searching/MissingInt.py)
 &nbsp;|&nbsp;&nbsp;[Peaks and Valleys](https://github.com/KishoreMayank/CodingChallenges/blob/master/Cracking%20the%20Coding%20Interview/Sorting%20and%20Searching/PeaksValleys.py)
-&nbsp;|&nbsp;&nbsp;[Rank From Stream](https://github.com/KishoreMayank/CodingChallenges/blob/master/Cracking%20the%20Coding%20Interview/Sorting%20and%20Searching/RankFromStream.py)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[Rank From Stream](https://github.com/KishoreMayank/CodingChallenges/blob/master/Cracking%20the%20Coding%20Interview/Sorting%20and%20Searching/RankFromStream.py)
 &nbsp;|&nbsp;&nbsp;[Sorted Matrix Search](https://github.com/KishoreMayank/CodingChallenges/blob/master/Cracking%20the%20Coding%20Interview/Sorting%20and%20Searching/SortedMatrixSearch.py)
 
 ### [Trees and Graphs](https://github.com/KishoreMayank/CodingChallenges/tree/master/Cracking%20the%20Coding%20Interview/Trees%20and%20Graphs)
@@ -97,7 +98,8 @@ This is a repo of some of the problems that I have encountered. The code is writ
 &nbsp;|&nbsp;&nbsp;[Lowest Common Ancestor](https://github.com/KishoreMayank/CodingChallenges/blob/master/Cracking%20the%20Coding%20Interview/Trees%20and%20Graphs/LowestCommonAncestor.py)
 &nbsp;|&nbsp;&nbsp;[Successor](https://github.com/KishoreMayank/CodingChallenges/blob/master/Cracking%20the%20Coding%20Interview/Trees%20and%20Graphs/Successor.py)
 &nbsp;|&nbsp;&nbsp;[List of Depths](https://github.com/KishoreMayank/CodingChallenges/blob/master/Cracking%20the%20Coding%20Interview/Trees%20and%20Graphs/ListOfDepths.py)
-&nbsp;|&nbsp;&nbsp;[Minimal Tree](https://github.com/KishoreMayank/CodingChallenges/blob/master/Cracking%20the%20Coding%20Interview/Trees%20and%20Graphs/MinimalTree.py)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[Minimal Tree](https://github.com/KishoreMayank/CodingChallenges/blob/master/Cracking%20the%20Coding%20Interview/Trees%20and%20Graphs/MinimalTree.py)
 &nbsp;|&nbsp;&nbsp;[Paths with Sum](https://github.com/KishoreMayank/CodingChallenges/blob/master/Cracking%20the%20Coding%20Interview/Trees%20and%20Graphs/PathsWithSum.py)
 &nbsp;|&nbsp;&nbsp;[Random Node](https://github.com/KishoreMayank/CodingChallenges/blob/master/Cracking%20the%20Coding%20Interview/Trees%20and%20Graphs/RandomNode.py)
 &nbsp;|&nbsp;&nbsp;[Route Between Nodes](https://github.com/KishoreMayank/CodingChallenges/blob/master/Cracking%20the%20Coding%20Interview/Trees%20and%20Graphs/RouteBetweenNodes.py)
@@ -110,7 +112,8 @@ This is a repo of some of the problems that I have encountered. The code is writ
 &nbsp;|&nbsp;&nbsp;[Paint Fill](https://github.com/KishoreMayank/CodingChallenges/blob/master/Cracking%20the%20Coding%20Interview/Recursion%20and%20Dynamic%20Programming/PaintFill.py)
 &nbsp;|&nbsp;&nbsp;[Parens](https://github.com/KishoreMayank/CodingChallenges/blob/master/Cracking%20the%20Coding%20Interview/Recursion%20and%20Dynamic%20Programming/Parens.py)
 &nbsp;|&nbsp;&nbsp;[Power Set](https://github.com/KishoreMayank/CodingChallenges/blob/master/Cracking%20the%20Coding%20Interview/Recursion%20and%20Dynamic%20Programming/PowerSet.py)
-&nbsp;|&nbsp;&nbsp;[Recursively Multiply](https://github.com/KishoreMayank/CodingChallenges/blob/master/Cracking%20the%20Coding%20Interview/Recursion%20and%20Dynamic%20Programming/RecursivelyMultiply.py)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[Recursively Multiply](https://github.com/KishoreMayank/CodingChallenges/blob/master/Cracking%20the%20Coding%20Interview/Recursion%20and%20Dynamic%20Programming/RecursivelyMultiply.py)
 &nbsp;|&nbsp;&nbsp;[Robot Grid](https://github.com/KishoreMayank/CodingChallenges/blob/master/Cracking%20the%20Coding%20Interview/Recursion%20and%20Dynamic%20Programming/RobotGrid.py)
 &nbsp;|&nbsp;&nbsp;[Stack of Boxes](https://github.com/KishoreMayank/CodingChallenges/blob/master/Cracking%20the%20Coding%20Interview/Recursion%20and%20Dynamic%20Programming/StackBoxes.py)
 &nbsp;|&nbsp;&nbsp;[Towers of Hanoi](https://github.com/KishoreMayank/CodingChallenges/blob/master/Cracking%20the%20Coding%20Interview/Recursion%20and%20Dynamic%20Programming/TowersOfHanoi.py)

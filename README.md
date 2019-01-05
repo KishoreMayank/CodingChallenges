@@ -37,5 +37,26 @@ This is a repo of some of the problems that I have encountered. The code is writ
 &nbsp;&nbsp;&nbsp;&nbsp;[Counting Sort](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Sorting%20and%20Searching/CountingSort.py)
 &nbsp;|&nbsp;&nbsp;[Rotation Point](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Sorting%20and%20Searching/RotationPoint.py)
 
+### [Graphs](https://github.com/KishoreMayank/CodingChallenges/tree/master/Interview%20Cake/Graphs)
+&nbsp;&nbsp;&nbsp;&nbsp;[Graph Coloring](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Graphs/GraphColoring.py)
+&nbsp;|&nbsp;&nbsp;[Mesh Message](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Graphs/MeshMessage.py)
+
+### [Binary Search Tree](https://github.com/KishoreMayank/CodingChallenges/tree/master/Interview%20Cake/Binary%20Search%20Trees)
+&nbsp;&nbsp;&nbsp;&nbsp;[Second Largest](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Binary%20Search%20Trees/SecondLargest.py)
+&nbsp;|&nbsp;&nbsp;[Super Balanced](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Binary%20Search%20Trees/SuperBalanced.py)
+&nbsp;|&nbsp;&nbsp;[Valid BST](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Binary%20Search%20Trees/ValidBST.py)
+
+### [Recursion and Dynamic Programming](https://github.com/KishoreMayank/CodingChallenges/tree/master/Interview%20Cake/Recursion%20and%20Dynamic%20Programming)
+&nbsp;&nbsp;&nbsp;&nbsp;[Coin Change](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Recursion%20and%20Dynamic%20Programming/CoinChange.py)
+&nbsp;|&nbsp;&nbsp;[Fibonacci](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Recursion%20and%20Dynamic%20Programming/Fibonacci.py)
+&nbsp;|&nbsp;&nbsp;[String Permutations](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Recursion%20and%20Dynamic%20Programming/StringPermutations.py)
+&nbsp;|&nbsp;&nbsp;[Two Egg Problem](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Recursion%20and%20Dynamic%20Programming/TwoEggProblem.py)
+&nbsp;|&nbsp;&nbsp;[Unbounded Knapsack](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Recursion%20and%20Dynamic%20Programming/UnboundedKnapsack.py)
+
+### [Combinatorics](https://github.com/KishoreMayank/CodingChallenges/tree/master/Interview%20Cake/Combinatorics)
+&nbsp;&nbsp;&nbsp;&nbsp;[Appears Twice](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Combinatorics/AppearsTwice.py)
+&nbsp;|&nbsp;&nbsp;[Binary Search](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Combinatorics/BinarySearch.py)
+&nbsp;|&nbsp;&nbsp;[Re Roll Dice](https://github.com/KishoreMayank/CodingChallenges/blob/master/Interview%20Cake/Combinatorics/ReRollDie.py)
+
 
 ## Cracking the Coding Interview
